@@ -96,7 +96,6 @@ const fetchData = async (urlF, pokemonF) => {
   try {
     const res = await fetch(`${urlF}/${pokemonF.toLowerCase()}`)
     const data = await res.json()
-    console.log(data)
     displayData(data)
   } catch (err) {
     alert("Pokémon not found")
