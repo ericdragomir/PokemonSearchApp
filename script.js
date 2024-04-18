@@ -98,7 +98,7 @@ const fetchData = async (urlF, pokemonF) => {
     const data = await res.json()
     displayData(data)
   } catch (err) {
-    alert("Pokémon not found")
+    alert("Pokémon not found, please try again entering the Pokémon's name or id")
     console.log("An error occured: ", err)
   }
 }
