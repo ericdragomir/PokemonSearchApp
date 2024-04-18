@@ -1,7 +1,7 @@
 # PokemonSearchApp
 A simple search app that uses the [PokéAPI](https://pokeapi.co/) for retrieving information and fetching the data.
 
-You can try this app at https://github.com/ericdragomir/PokemonSearchApp
+You can try this app [here](https://ericdragomir.github.io/PokemonSearchApp/)
 
 ## Installation
   1. Clone or download this repository to your local machine.
