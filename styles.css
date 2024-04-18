@@ -28,6 +28,18 @@ form > * {
   text-align: center;
 }
 
+button {
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: lightgrey;
+  padding: 2px;
+}
+
+button:hover {
+  color: white;
+  background-color: #871720;
+}
+
 .container > * {
   margin: 10px;
 }
