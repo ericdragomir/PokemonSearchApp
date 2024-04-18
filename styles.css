@@ -1,0 +1,79 @@
+body {
+  background-color: #871720;
+  text-align: center;
+}
+  
+h1 {
+  color: white;
+}
+  
+.container {
+  color: black;
+  width: 50%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+ 
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form > * {
+  width: 50%;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.container > * {
+  margin: 10px;
+}
+
+td {
+  border-bottom: 1px solid black;
+}
+
+th {
+  border-bottom: 1px solid grey;
+}
+
+table {
+  width: 100%
+}
+  
+#pokemon-image {
+  background-color: lightgrey;
+  border-radius: 5px;
+}
+
+tr {  
+  text-align: center;
+}
+
+.type-p {
+  border: solid 1px black;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin: 0 0.5rem 0 0.5rem;
+}
+
+footer p {
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 75%;
+  }
+}
